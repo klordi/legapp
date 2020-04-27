@@ -1,0 +1,156 @@
+ /* Dark Mode
+ */
+
+ #themebutton {
+    margin-bottom: 25px;
+  }
+   
+   #head {
+    color: rgb(176, 151, 243);
+    font-style: bold;
+    letter-spacing: -1px;
+    font-size: calc(10px + 6vmin);
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-top: 40px;
+    margin-bottom: -11px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  #subhead1 {
+    color: rgb(176, 151, 243);
+    font-style: bold;
+    letter-spacing: 0px;
+    font-size: calc(5.5px + 3.75vmin);
+    font-weight: bold;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-top: -9px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  
+  #subhead2 {
+    color: rgb(189, 189, 189);
+    letter-spacing: 0px;
+    font-style: bold;
+    font-size: calc(3px + 3vmin);
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .checkhead {
+    color: rgb(189, 168, 248);
+    letter-spacing: 0px;
+    font-size: calc(10px + 2vmin);
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold; 
+    margin-bottom: 7px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .checkhead2 {
+    color: rgb(189, 168, 248);
+    letter-spacing: 1px;
+    font-size: calc(5px + 2vmin);
+    font-family: Tahoma, Geneva, sans-serif;
+    margin-top: -5px;
+    margin-bottom: 7px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  
+  #generate {
+    margin: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  #bodypart {
+    margin-bottom: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  #hittchecks {
+    margin-bottom: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  #equipchecks {
+    margin-bottom: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  #workouts {
+    margin-bottom: 25px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  #button {
+    font-family: Tahoma, Geneva, sans-serif;
+  }
+  
+  .App {
+    background-color: #1d1d20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    font-size: calc(10px + 1.4vmin);
+    font-family: Tahoma, Geneva, sans-serif;
+    min-height: 700px;
+  }
+  
+  .bigcontainer {
+    font-size: calc(8px + 3.0vmin);
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 25px;
+    
+  }
+  
+  /* .smallcontainer {
+    font-size: calc(10px + 2.0vmin);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+  } */
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .App-body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
