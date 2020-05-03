@@ -8,7 +8,11 @@ import {FormRadio} from "shards-react";
 import { Container, Row, Col } from "shards-react";
 import axios from 'axios'
 import randomItem from 'random-item';
-import Img from './logo6.png';
+import Img from './logo7.png';
+import Img from './1.png';
+import Img from './2.png';
+import Img from './3.png';
+
 
 function Hitt(props) {
   const begin = props.begin;
@@ -41,6 +45,12 @@ function Workouts(props) {
   if (begin && works.length > 0) {
     if (type === "3x3"){ 
       return <Container className="bigcontainer">
+                <div> 
+                <center>
+                  <img ClassName="pic3x3" src= {Img} alt="pic" height="368.146" width="380" margin-top="50"/>
+                  <br/> <b> </b>
+                </center>
+              </div>
                 <Row>
                   <Col> &bull; {works[0].reps} {works[0].exercise} </Col>
                 </Row>
@@ -51,7 +61,7 @@ function Workouts(props) {
                   <Col> &bull; {works[2].reps} {works[2].exercise} </Col>
                 </Row>
                 <Row>
-                  <Col> &#215; Repeat 3 Times &#215; </Col>
+                  <Col> Repeat 3 Times </Col>
                 </Row>
             </Container>
     }
@@ -70,7 +80,7 @@ function Workouts(props) {
                   <Col> &bull; {works[3].reps} {works[3].exercise} </Col>
                 </Row>
                 <Row>
-                  <Col> &#215; Repeat 3 Times &#215; </Col>
+                  <Col> Repeat 3 Times </Col>
                 </Row>
             </Container>
     }
@@ -92,7 +102,7 @@ function Workouts(props) {
                   <Col> &bull; {works[4].reps} {works[4].exercise} </Col>
                 </Row>
                 <Row>
-                  <Col> &#215; Repeat 2 Times &#215; </Col>
+                  <Col> Repeat 2 Times </Col>
                 </Row>
             </Container>
     }
@@ -191,7 +201,7 @@ class App extends React.Component {
       arr.push("Ankle Weights");
     }
     if (this.state.hweight) {
-      arr.push("Heavier weight (more than 20lbs)");
+      arr.push("Weight 10+lbs");
     }
   
     var bp;
@@ -324,12 +334,12 @@ class App extends React.Component {
         
       <div> 
 				<center>
-          <img ClassName="logo" src= {Img} alt="pic" height="268.1" width="380" margin-top="50"/>
+          <img ClassName="logo" src= {Img} alt="pic" height="368.146" width="380" margin-top="50"/>
 					<br/> <b> </b>
 				</center>
 			</div>
 
-        <p className="checkhead"> What are you working?</p>
+        <p className="checkhead"> This or that?</p>
         <div id="main">
           <div id="bodypart">
             <FormRadio name="bodypart"
@@ -348,7 +358,7 @@ class App extends React.Component {
             </FormRadio>
           </div>
         
-            <p className="checkhead"> Want added H.I.T.T.? </p>
+            <p className="checkhead"> Want added HIIT? </p>
           <div id="hittchecks">
            <FormCheckbox 
               inline
@@ -359,7 +369,7 @@ class App extends React.Component {
             </FormCheckbox>
           </div>
           <div id="equipchecks">
-            <p className="checkhead"> Please select your equipment </p>
+            <p className="checkhead"> What equipment? </p>
             <FormCheckbox
               checked={this.state.jumprope}
               onChange={e => this.handleChangeEquip(e, "jumprope")} 
@@ -418,12 +428,12 @@ class App extends React.Component {
               checked={this.state.hweight}
               onChange={e => this.handleChangeEquip(e, "hweight")}
             >
-            Heavier weight (more than 20lbs)
+            Weight 20+lbs
            </FormCheckbox>
           </div>
         </div>
         <div id="workouts">
-        <p className="checkhead"> Please select a circuit format</p>
+        <p className="checkhead"> Circuit format?</p>
         <p className="checkhead2"> (# exercises by # rounds)</p>
           <FormRadio name="formatradio"
             inline
@@ -456,7 +466,7 @@ class App extends React.Component {
         </div>
         <div id="button">
           <Button block outline theme="white" buttonStyle="Tahoma" size="lg" onClick={this.generateWorkouts} >
-            Generate Workout!
+           Generate Workout!
           </Button>
         <div id="spacers">
           <li></li>

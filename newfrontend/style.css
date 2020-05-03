@@ -1,0 +1,117 @@
+ body { 
+    background-color: #1e2122
+}
+
+
+/* Mode Format */ 
+.modetext { 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px; 
+    letter-spacing: -1px;
+    pointer-events:none;
+
+}
+text.modetext:hover {
+    font-weight: bold;
+}
+
+/* Choices Format */ 
+.choicestext { 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 56px; 
+    letter-spacing: -1px;
+
+}
+
+text.choicestext:hover {
+    font-weight: bold;
+  }
+
+  /* Check Headers Format */
+.checkhead { 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 56px; 
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.checkhead2 { 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 50px; 
+    letter-spacing: -1px;
+}
+
+/* Button Format */
+.buttontext {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 56px; 
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+
+.generatetext {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 80px; 
+    letter-spacing: 0px;
+    font-weight: bold; 
+    stroke-width: 15;
+    pointer-events:none;
+}
+ 
+.generate:hover {
+    stroke-width: 20;
+}  /* MAKE SURE THIS COVERS THE ENTIREEEE BUTTON */ 
+
+/* LOGO */
+
+.logoline1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 160px; 
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.logoline2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 120px; 
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.logoline3 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 111px; 
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.logoline4 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 56px; 
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+
+/* Output */
+.outputtext { 
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 56px; 
+    letter-spacing: -1px;
+    color: white;
+
+}
+
+#output1 {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 150px;
+}
+
+#output2 {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
